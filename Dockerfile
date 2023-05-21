@@ -1,0 +1,4 @@
+FROM library/postgres
+ENV POSTGRES_USER=gbig
+ENV POSTGRES_PASSWORD=gbig
+ENV POSTGRES_DB=punk_api
