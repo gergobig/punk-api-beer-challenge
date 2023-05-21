@@ -4,10 +4,10 @@ The Punk API Beer Challenge is a project aimed at collecting and analyzing data 
 ## Project Structure
 The project is organized into the following components:
 
-load_data.py: Python script to fetch data from the Punk API and store it in a PostgreSQL database.
-analyze.py: Python script to analyze the collected beer data from the database.
-db_connector.py: Configuration file containing the database connection details.
-README.md: Documentation file (you're reading it right now).
+- load_data.py: Python script to fetch data from the Punk API and store it in a PostgreSQL database.
+- analyze.py: Python script to analyze the collected beer data from the database.
+- db_connector.py: Configuration file containing the database connection details.
+- README.md: Documentation file (you're reading it right now).
 
 ## Setup
 I used Python 3.10.8 for this script. Run the following commands:
