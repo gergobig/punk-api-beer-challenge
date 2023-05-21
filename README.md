@@ -20,7 +20,7 @@ Run the following commands:
 
 ## Scheduling
 Run the following commands in crontab:
-    */2 * * * * path/to/beer_challenge/analyze.sh >> /path/to/analyze.log 2>&1
+    0 1 * * * path/to/beer_challenge/analyze.sh >> /path/to/analyze.log 2>&1
 
-The script will run every 2 minutes but folder must be outside of user directories and other restricted ones. I advise you to do it in `/usr/local/bin` for example.
+The script will run every day at 1:00 AM but folder must be outside of user directories and other restricted ones. I advise you to do it in `/usr/local/bin` for example.
 You will be able to see the logs in the `analyze.log` file.
